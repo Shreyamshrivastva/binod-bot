@@ -1,0 +1,121 @@
+body {
+    background-image:url("https://wallpaperaccess.com/download/whatsapp-dark-2224374");
+    padding:0;
+    margin:0;
+}
+#binod{
+    background-color:rgb(000,000,150);
+    height:10vh;
+    display:flex;
+    align-items:center;
+    padding-left:10px;
+}
+#avtar{
+    width:40px;
+    height:40px;
+    background:rgb(000,150,00);
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+}
+#word{
+    color:white;
+    padding-left:10px;
+}
+#inputSystem
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border:none;
+    border-top: 1px solid #8B8B8B;
+    background:#282c34;
+
+    width: 100%;
+    height: 35px;
+    
+    
+
+}
+
+#msg
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+
+    border:none;
+  
+    padding-left: 20px;
+    background:#282c34;
+
+    /*#585858*/
+    color: #fff;
+}
+#msg:focus
+{
+    outline: none;
+}
+
+#msg::-webkit-input-placeholder
+{
+    color:rgb(230, 226, 222);
+}
+
+#msg::-moz-placeholder
+{
+    color:rgb(230, 226, 222);
+}
+#messages::-webkit-scrollbar
+{
+    background: rgba(255,255,255,0.3);
+    width: 5px;
+}
+#messages::-webkit-scrollbar-thumb
+{
+    background: rgba(255,255,255,0.2);
+   
+}
+
+
+
+#sendIcon
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+#sendIcon:hover
+{
+    border-radius: 5%;
+    background-color: rgba(0,0,0,0.3);
+    padding-left: 5px;
+
+}
+.yourMsg{
+    padding:10px;
+    color:white;
+    width:fit-content;
+    background:blue;
+    max-width:70%;
+    float:right;
+}
+.botMsg{
+    padding:10px;
+    color:white;
+    width:fit-content;
+    background:red;
+    margin-top:60px;
+}
+#msgArea{
+    height:80vh;
+    overflow-y:scroll;
+}
